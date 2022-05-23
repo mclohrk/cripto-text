@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Cripto Mensagem</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/c.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <div class=container4>
+                <p>
+                    <h1>Criptografia de mensagem </h1>
+                </p>
+                <!-- <img src="img/rubber-duck.png" alt="ducki">-->
+            </div>
+
+        </header>
+
+        <div class="row ">
+            <div role="main " class="col-md-8 ">
+
+                <textarea id="txtarea_enc" placeholder="Digite alguma coisa aê "> </textarea>
+                <div class="col-lg-12">
+                    <button onclick="exibirMensagem() ">Criptografar</button>
+                    <button onclick="exibirMensagem_desencript() ">Desencriptar</button>
+                </div>
+            </div>
+            <aside role="complementary" class="col-md-4">
+                <textarea id="txta" placeholder="Mensagem criptografada "></textarea>
+                <div class=" col-lg-12">
+                    <button onclick="copyTextArea()">Copiar</button>
+                    <button onclick="limpaText()">Apagar</button>
+                </div>
+            </aside>
+        </div>
+        <footer class="row">
+            <div class=col-md-12>
+                <p>
+                    Programa para criptografia de mensagens. Utilize o espaço para escrever sua mensagem e o botão "criptografar " para esconder a mensagem, com o botão "copiar " você pode selecionar e copiar a mensagem cifrada. Utilize sempre letras minúsculas sem caracteres
+                    especiais.
+                </p>
+
+            </div>
+
+            <!-- Grid container -->
+            <div class="container pt-4">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+            </div>
+            </section>
+            <!-- Copyright -->
+            <div class="text-center text-dark p-3">
+                © 2022 Copyright:
+                <a class="text-dark " href="https://mclohrk.github.io/" target="_blank" </a> mclohrk.github.io
+                </a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/criptorius.js "></script>
+</body>
+
+</html>

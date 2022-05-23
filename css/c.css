@@ -1,0 +1,113 @@
+    /*
+ * style.css 
+ */
+    
+    img {
+        display: inline;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: -6%;
+        width: 10%;
+    }
+    
+    div.container4 {
+        height: 10em;
+        position: relative;
+    }
+    
+    div.container4 h1 {
+        margin: 0;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    div.container4 h1 {
+        background: linear-gradient(90deg, rgba(34, 241, 51, 0.288) 0%, rgba(22, 199, 230, 0.692) 100%);
+        border-radius: 40px;
+        padding: 10px;
+    }
+    
+    .container,
+    .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .row {
+        margin-bottom: 20px;
+        display: inline;
+    }
+    
+    .col-lg-12 {
+        text-align: left;
+    }
+    
+    #elemento {
+        position: absolute;
+        width: 10%;
+        height: 30%;
+        bottom: 0;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        display: inline;
+    }
+    
+    textarea:focus {
+        outline: none;
+    }
+    
+    button {
+        margin-left: 10px;
+        background-color: #06224a;
+        color: white;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+    
+    button:hover {
+        background-color: #010d1f;
+        transition: 0.4s;
+    }
+    
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(34, 152, 241);
+        background: linear-gradient(90deg, rgba(34, 152, 241, 1) 0%, rgb(22, 230, 109) 100%);
+    }
+    
+    #elemento {
+        position: absolute;
+        width: 10%;
+        height: 30%;
+        bottom: 0;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    
+    #txta,
+    button,
+    textarea {
+        font-size: 20px;
+        border-radius: 40px;
+        border: none;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    textarea {
+        resize: none;
+    }
+    
+    textarea {
+        background-color: #d4e8ff;
+        color: #000000;
+        width: 400px;
+    }
