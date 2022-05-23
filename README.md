@@ -5,7 +5,7 @@ Projeto de criptografia de texto. Programa para criptografia de mensagens. Utili
 
 ## 🚀 ⚙️ 📦 Caracteristicas
 
-Neste projeto é possível criptografar mensagens com regras pessoais que podem ser modificadas, criadas e adicionadas de forma fácil e simples.
+Neste projeto é possível criptografar mensagens com regras pessoais que podem ser modificadas, criadas e adicionadas de forma fácil e simples. Responsivo, pode ser utilizado via desktop ou  mobile.
 
 ## 🛠️ Construído com
 
