@@ -64,7 +64,7 @@ function limpaText() {
 
 function copyTextArea() {
     //printMensagem(data)
-    let textoCopiado = document.getElementById("txtarea_enc");
+    let textoCopiado = document.getElementById("txta");
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999)
     document.execCommand("copy");
